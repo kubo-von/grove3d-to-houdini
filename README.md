@@ -6,6 +6,8 @@ Don't expect anything polished, I made these as my personal messy R&D.
 
 This setup works for Renderman and Mantra, for Redshift or Arnold it migth need slight adjustments but I haven't tested it.<br>
 
+Tested with Blender 2.80 beta and Grove 7 
+
 <h2>Tutorial:</h2>
 
 <h3>1.Blender</h3>
