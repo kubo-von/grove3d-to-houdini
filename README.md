@@ -1,3 +1,7 @@
+# NOTE:
+USD export has been added to Blender since I wrote this script, this works quite well for exporting the whole tree along with instanced twigs. If you dont want to do something fancy with the twigs this could be more simple solution for you.
+
+
 # grove3d-to-houdini
 
 Python scripts for exporting trees from grove3d to houdini with twing instancing.
