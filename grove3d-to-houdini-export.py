@@ -15,7 +15,8 @@ def chunks(l, n):
 
 outsys= dict()
 ob = bpy.context.active_object
-eval_ob = bpy.context.depsgraph.objects.get(ob.name, None)
+depsgraph = bpy.context.evaluated_depsgraph_get()
+eval_ob = ob.evaluated_get(depsgraph)
 
 for psys in eval_ob.particle_systems:
     
